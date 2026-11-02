@@ -1,0 +1,27 @@
+[project]
+name = "cinco-variaveis"
+version = "0.1.0"
+description = "Memória e El Niño nas cinco variáveis do projeto de mestrado, no Sudeste da América do Sul (ERA5)"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Emanuel Pinto Sampaio" }]
+requires-python = ">=3.11"
+dependencies = [
+    "cartopy>=0.23",
+    "cdsapi>=0.7.4",
+    "matplotlib>=3.8",
+    "netcdf4>=1.6",
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "xarray>=2024.1",
+]
+
+[dependency-groups]
+dev = ["ruff>=0.6"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "NPY"]
