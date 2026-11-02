@@ -22,7 +22,7 @@ A temperatura do ar é a variável com mais memória, principalmente sobre o oce
 ## Arquivos
 
 - [`notebooks/cinco_variaveis.ipynb`](notebooks/cinco_variaveis.ipynb) traz o passo a passo e o código.
-- [`docs/cinco_variaveis/`](docs/cinco_variaveis/) traz o resumo em LaTeX.
+- [`docs/cinco_variaveis/`](docs/cinco_variaveis/01.pdf) traz o resumo em PDF.
 
 Para rodar o notebook, você vai precisar do [`uv`](https://docs.astral.sh/uv/) e de uma conta no [Copernicus CDS](https://cds.climate.copernicus.eu), com a chave salva em `~/.cdsapirc`. Ele baixa os próprios dados.
 
